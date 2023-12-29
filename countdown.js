@@ -42,7 +42,7 @@ doors.forEach((door, index) => {
       // 여기에 모달을 열거나 특정 동작을 수행하는 코드 추가
 
       // 상위 div의 class 번호를 찾아서 image url에 사용합니다
-      const imageUrl = `../../../../static/monthlycoding/advent-calendar/original/image/card/card-${index + 1}.png`;
+      const imageUrl = `../image/card/card-${index + 1}.png`;
 
       // 'back' 클래스를 가진 요소를 찾아 스타일을 가져옵니다.
       const doorDiv = document.querySelector(`.day-${index + 1}`)
